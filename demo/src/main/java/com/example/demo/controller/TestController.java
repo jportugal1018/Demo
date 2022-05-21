@@ -28,7 +28,7 @@ public class TestController {
 	@GetMapping("hello2")
 	public List<Student> hello2() {
 		List<Student>students=new ArrayList<Student>();
-		students.add(new Student(1L, "Mariam", "mariam.j@gmail.com", 18));
+		students.add(new Student(1L, "Mariam", "mariam.j@gmail.com", 19));
 		
 		return students;
 	}
